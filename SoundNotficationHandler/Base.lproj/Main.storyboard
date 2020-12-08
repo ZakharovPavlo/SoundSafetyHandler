@@ -28,7 +28,7 @@ This app is developer in order to handle annoying feature in iOS 14.2 which is c
 PS If you lock the screen or/and in some time the app might go to background and stop working. 
 In order to make it work again repeat steps 1-3. The solution is not perfect and I’m still working on improving it. The app is open source, please contribute if you want to!
 Github:
-https://github.com/ZakharovPavlo/VolimeNotficationHandler
+https://github.com/ZakharovPavlo/SoundNotficationHandler
 
 If you want to say thank you donate to:
 
@@ -69,7 +69,7 @@ paypal.me/Zakharov288
         <!--Volume Selection View Controller-->
         <scene sceneID="P92-px-HGp">
             <objects>
-                <viewController id="MDi-Px-dKg" customClass="VolumeSelectionViewController" customModule="VolimeNotficationHandler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MDi-Px-dKg" customClass="VolumeSelectionViewController" customModule="SoundNotficationHandler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aZd-sy-6Q2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +110,7 @@ paypal.me/Zakharov288
         <!--Blank View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="BlankViewController" customModule="VolimeNotficationHandler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="BlankViewController" customModule="SoundNotficationHandler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

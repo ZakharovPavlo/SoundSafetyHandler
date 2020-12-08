@@ -1,6 +1,6 @@
 //
 //  VolumeSelectionViewController.swift
-//  VolimeNotficationHandler
+//  SoundNotficationHandler
 //
 //  Created by Pavlo Zakharov on 12/8/20.
 //

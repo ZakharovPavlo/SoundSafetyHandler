@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE42B140257CE8C700DA2175 /* VolimeNotficationHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolimeNotficationHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE42B140257CE8C700DA2175 /* SoundNotficationHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundNotficationHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE42B143257CE8C700DA2175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE42B145257CE8C700DA2175 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EE42B147257CE8C700DA2175 /* BlankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		EE42B137257CE8C700DA2175 = {
 			isa = PBXGroup;
 			children = (
-				EE42B142257CE8C700DA2175 /* VolimeNotficationHandler */,
+				EE42B142257CE8C700DA2175 /* SoundNotficationHandler */,
 				EE42B141257CE8C700DA2175 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		EE42B141257CE8C700DA2175 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE42B140257CE8C700DA2175 /* VolimeNotficationHandler.app */,
+				EE42B140257CE8C700DA2175 /* SoundNotficationHandler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE42B142257CE8C700DA2175 /* VolimeNotficationHandler */ = {
+		EE42B142257CE8C700DA2175 /* SoundNotficationHandler */ = {
 			isa = PBXGroup;
 			children = (
 				EE42B143257CE8C700DA2175 /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				EE42B151257CE8C700DA2175 /* Info.plist */,
 				EE42B163257FEE8C00DA2175 /* VolumeSelectionViewController.swift */,
 			);
-			path = VolimeNotficationHandler;
+			path = SoundNotficationHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE42B13F257CE8C700DA2175 /* VolimeNotficationHandler */ = {
+		EE42B13F257CE8C700DA2175 /* SoundNotficationHandler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE42B154257CE8C700DA2175 /* Build configuration list for PBXNativeTarget "VolimeNotficationHandler" */;
+			buildConfigurationList = EE42B154257CE8C700DA2175 /* Build configuration list for PBXNativeTarget "SoundNotficationHandler" */;
 			buildPhases = (
 				EE42B13C257CE8C700DA2175 /* Sources */,
 				EE42B13D257CE8C700DA2175 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = VolimeNotficationHandler;
-			productName = VolimeNotficationHandler;
-			productReference = EE42B140257CE8C700DA2175 /* VolimeNotficationHandler.app */;
+			name = SoundNotficationHandler;
+			productName = SoundNotficationHandler;
+			productReference = EE42B140257CE8C700DA2175 /* SoundNotficationHandler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE42B13B257CE8C700DA2175 /* Build configuration list for PBXProject "VolimeNotficationHandler" */;
+			buildConfigurationList = EE42B13B257CE8C700DA2175 /* Build configuration list for PBXProject "SoundNotficationHandler" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE42B13F257CE8C700DA2175 /* VolimeNotficationHandler */,
+				EE42B13F257CE8C700DA2175 /* SoundNotficationHandler */,
 			);
 		};
 /* End PBXProject section */
@@ -297,12 +297,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJNKDGF9NE;
-				INFOPLIST_FILE = VolimeNotficationHandler/Info.plist;
+				INFOPLIST_FILE = SoundNotficationHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clark.VolimeNotficationHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.SoundNotficationHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -318,12 +318,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJNKDGF9NE;
-				INFOPLIST_FILE = VolimeNotficationHandler/Info.plist;
+				INFOPLIST_FILE = SoundNotficationHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clark.VolimeNotficationHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.SoundNotficationHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -334,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE42B13B257CE8C700DA2175 /* Build configuration list for PBXProject "VolimeNotficationHandler" */ = {
+		EE42B13B257CE8C700DA2175 /* Build configuration list for PBXProject "SoundNotficationHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE42B152257CE8C700DA2175 /* Debug */,
@@ -343,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE42B154257CE8C700DA2175 /* Build configuration list for PBXNativeTarget "VolimeNotficationHandler" */ = {
+		EE42B154257CE8C700DA2175 /* Build configuration list for PBXNativeTarget "SoundNotficationHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE42B155257CE8C700DA2175 /* Debug */,

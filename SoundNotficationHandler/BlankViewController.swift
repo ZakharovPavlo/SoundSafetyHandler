@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  VolimeNotficationHandler
+//  SoundNotficationHandler
 //
 //  Created by Pavlo Zakharov on 12/6/20.
 //
