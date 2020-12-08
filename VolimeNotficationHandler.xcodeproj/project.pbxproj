@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE42B144257CE8C700DA2175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42B143257CE8C700DA2175 /* AppDelegate.swift */; };
+		EE42B146257CE8C700DA2175 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42B145257CE8C700DA2175 /* SceneDelegate.swift */; };
+		EE42B148257CE8C700DA2175 /* BlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42B147257CE8C700DA2175 /* BlankViewController.swift */; };
+		EE42B14B257CE8C700DA2175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE42B149257CE8C700DA2175 /* Main.storyboard */; };
+		EE42B14D257CE8C700DA2175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE42B14C257CE8C700DA2175 /* Assets.xcassets */; };
+		EE42B150257CE8C700DA2175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE42B14E257CE8C700DA2175 /* LaunchScreen.storyboard */; };
+		EE42B15C257CF2F800DA2175 /* Placeholder.MOV in Resources */ = {isa = PBXBuildFile; fileRef = EE42B15B257CF2F800DA2175 /* Placeholder.MOV */; };
+		EE42B164257FEE8C00DA2175 /* VolumeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE42B163257FEE8C00DA2175 /* VolumeSelectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE42B140257CE8C700DA2175 /* VolimeNotficationHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolimeNotficationHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE42B143257CE8C700DA2175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE42B145257CE8C700DA2175 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE42B147257CE8C700DA2175 /* BlankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankViewController.swift; sourceTree = "<group>"; };
+		EE42B14A257CE8C700DA2175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE42B14C257CE8C700DA2175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE42B14F257CE8C700DA2175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE42B151257CE8C700DA2175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE42B15B257CF2F800DA2175 /* Placeholder.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Placeholder.MOV; sourceTree = "<group>"; };
+		EE42B163257FEE8C00DA2175 /* VolumeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSelectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE42B13D257CE8C700DA2175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE42B137257CE8C700DA2175 = {
+			isa = PBXGroup;
+			children = (
+				EE42B142257CE8C700DA2175 /* VolimeNotficationHandler */,
+				EE42B141257CE8C700DA2175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE42B141257CE8C700DA2175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE42B140257CE8C700DA2175 /* VolimeNotficationHandler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE42B142257CE8C700DA2175 /* VolimeNotficationHandler */ = {
+			isa = PBXGroup;
+			children = (
+				EE42B143257CE8C700DA2175 /* AppDelegate.swift */,
+				EE42B145257CE8C700DA2175 /* SceneDelegate.swift */,
+				EE42B147257CE8C700DA2175 /* BlankViewController.swift */,
+				EE42B15B257CF2F800DA2175 /* Placeholder.MOV */,
+				EE42B149257CE8C700DA2175 /* Main.storyboard */,
+				EE42B14C257CE8C700DA2175 /* Assets.xcassets */,
+				EE42B14E257CE8C700DA2175 /* LaunchScreen.storyboard */,
+				EE42B151257CE8C700DA2175 /* Info.plist */,
+				EE42B163257FEE8C00DA2175 /* VolumeSelectionViewController.swift */,
+			);
+			path = VolimeNotficationHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE42B13F257CE8C700DA2175 /* VolimeNotficationHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE42B154257CE8C700DA2175 /* Build configuration list for PBXNativeTarget "VolimeNotficationHandler" */;
+			buildPhases = (
+				EE42B13C257CE8C700DA2175 /* Sources */,
+				EE42B13D257CE8C700DA2175 /* Frameworks */,
+				EE42B13E257CE8C700DA2175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolimeNotficationHandler;
+			productName = VolimeNotficationHandler;
+			productReference = EE42B140257CE8C700DA2175 /* VolimeNotficationHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE42B138257CE8C700DA2175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EE42B13F257CE8C700DA2175 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EE42B13B257CE8C700DA2175 /* Build configuration list for PBXProject "VolimeNotficationHandler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE42B137257CE8C700DA2175;
+			productRefGroup = EE42B141257CE8C700DA2175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE42B13F257CE8C700DA2175 /* VolimeNotficationHandler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE42B13E257CE8C700DA2175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42B150257CE8C700DA2175 /* LaunchScreen.storyboard in Resources */,
+				EE42B14D257CE8C700DA2175 /* Assets.xcassets in Resources */,
+				EE42B14B257CE8C700DA2175 /* Main.storyboard in Resources */,
+				EE42B15C257CF2F800DA2175 /* Placeholder.MOV in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE42B13C257CE8C700DA2175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE42B148257CE8C700DA2175 /* BlankViewController.swift in Sources */,
+				EE42B144257CE8C700DA2175 /* AppDelegate.swift in Sources */,
+				EE42B146257CE8C700DA2175 /* SceneDelegate.swift in Sources */,
+				EE42B164257FEE8C00DA2175 /* VolumeSelectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE42B149257CE8C700DA2175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE42B14A257CE8C700DA2175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE42B14E257CE8C700DA2175 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE42B14F257CE8C700DA2175 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE42B152257CE8C700DA2175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE42B153257CE8C700DA2175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE42B155257CE8C700DA2175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJNKDGF9NE;
+				INFOPLIST_FILE = VolimeNotficationHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.VolimeNotficationHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE42B156257CE8C700DA2175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJNKDGF9NE;
+				INFOPLIST_FILE = VolimeNotficationHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.VolimeNotficationHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE42B13B257CE8C700DA2175 /* Build configuration list for PBXProject "VolimeNotficationHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE42B152257CE8C700DA2175 /* Debug */,
+				EE42B153257CE8C700DA2175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE42B154257CE8C700DA2175 /* Build configuration list for PBXNativeTarget "VolimeNotficationHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE42B155257CE8C700DA2175 /* Debug */,
+				EE42B156257CE8C700DA2175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE42B138257CE8C700DA2175 /* Project object */;
+}

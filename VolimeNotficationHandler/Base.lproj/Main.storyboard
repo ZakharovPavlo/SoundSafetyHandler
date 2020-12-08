@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nBP-cE-kr7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="HiX-t4-YRc">
+            <objects>
+                <viewController id="tdw-U0-7WY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3iw-rD-T88">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WAe-aw-LgC">
+                                <rect key="frame" x="0.0" y="88" width="414" height="724"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Hello Dear User, 
+This app is developer in order to handle annoying feature in iOS 14.2 which is called “Sound safety notifications”. So while user is listening to the music he is constantly prompted with notification and the volume is getting down. For me and for other people (e.g. motobikers, people who works on the factories with loud noise) this is really annoying. I appreciate Apple caring about my hearing but I believe that I am the one who should control the loudness of music and this feature completely ruins music listening experience for me. If you found yourself in the same situation Here is my solution.
+1. Select the volume level which is comfortable for you and press next.
+2. On the 2nd screen you will see the blank video playing
+3. Put the video in picture in picture mode and move it to there corner of your screen
+4. Now you can launch your favorite music app and listen to the music with no annoying notifications
+PS If you lock the screen or/and in some time the app might go to background and stop working. 
+In order to make it work again repeat steps 1-3. The solution is not perfect and I’m still working on improving it. The app is open source, please contribute if you want to!
+Github:
+https://github.com/ZakharovPavlo/VolimeNotficationHandler
+
+If you want to say thank you donate to:
+
+paypal.me/Zakharov288
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ZN-U0-qZK">
+                                <rect key="frame" x="0.0" y="820" width="414" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Got It"/>
+                                <connections>
+                                    <segue destination="MDi-Px-dKg" kind="show" id="2C9-hr-QGN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="odd-46-rrC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WAe-aw-LgC" firstAttribute="leading" secondItem="odd-46-rrC" secondAttribute="leading" id="08I-os-iC7"/>
+                            <constraint firstItem="WAe-aw-LgC" firstAttribute="top" secondItem="odd-46-rrC" secondAttribute="top" id="8jn-Bf-qks"/>
+                            <constraint firstItem="odd-46-rrC" firstAttribute="trailing" secondItem="WAe-aw-LgC" secondAttribute="trailing" id="Gb3-2Q-T4t"/>
+                            <constraint firstItem="5ZN-U0-qZK" firstAttribute="top" secondItem="WAe-aw-LgC" secondAttribute="bottom" constant="8" symbolic="YES" id="cJO-Jc-JJT"/>
+                            <constraint firstItem="5ZN-U0-qZK" firstAttribute="leading" secondItem="odd-46-rrC" secondAttribute="leading" id="cVf-CA-TuR"/>
+                            <constraint firstItem="odd-46-rrC" firstAttribute="trailing" secondItem="5ZN-U0-qZK" secondAttribute="trailing" id="nHO-5b-a0E"/>
+                            <constraint firstItem="5ZN-U0-qZK" firstAttribute="bottom" secondItem="odd-46-rrC" secondAttribute="bottom" id="u92-od-Wlz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="W1C-5M-G5k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4e-E2-bZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="580" y="78"/>
+        </scene>
+        <!--Volume Selection View Controller-->
+        <scene sceneID="P92-px-HGp">
+            <objects>
+                <viewController id="MDi-Px-dKg" customClass="VolumeSelectionViewController" customModule="VolimeNotficationHandler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aZd-sy-6Q2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udr-My-F2I">
+                                <rect key="frame" x="0.0" y="821" width="414" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Lj9-0I-vgO"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ucz-zg-UfG">
+                                <rect key="frame" x="18" y="460" width="378" height="31"/>
+                            </slider>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Uc-57-HvW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="udr-My-F2I" firstAttribute="leading" secondItem="8Uc-57-HvW" secondAttribute="leading" id="JEc-YJ-pJs"/>
+                            <constraint firstItem="ucz-zg-UfG" firstAttribute="centerX" secondItem="8Uc-57-HvW" secondAttribute="centerX" id="Od6-Fz-4ie"/>
+                            <constraint firstItem="udr-My-F2I" firstAttribute="bottom" secondItem="8Uc-57-HvW" secondAttribute="bottom" id="Sjb-Yo-KSp"/>
+                            <constraint firstItem="ucz-zg-UfG" firstAttribute="centerY" secondItem="8Uc-57-HvW" secondAttribute="centerY" id="VwH-7m-Epl"/>
+                            <constraint firstItem="8Uc-57-HvW" firstAttribute="trailing" secondItem="udr-My-F2I" secondAttribute="trailing" id="aDu-rH-Dj0"/>
+                            <constraint firstItem="ucz-zg-UfG" firstAttribute="leading" secondItem="aZd-sy-6Q2" secondAttribute="leading" constant="20" symbolic="YES" id="jU9-YT-3hn"/>
+                            <constraint firstAttribute="trailing" secondItem="ucz-zg-UfG" secondAttribute="trailing" constant="20" symbolic="YES" id="o9r-Ou-1Xs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="B0y-dk-M88"/>
+                    <connections>
+                        <outlet property="slider" destination="ucz-zg-UfG" id="IV9-Ja-Gya"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ozx-yK-oEM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1405.7971014492755" y="77.678571428571431"/>
+        </scene>
+        <!--Blank View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BlankViewController" customModule="VolimeNotficationHandler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="im2-Ho-yVC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2261" y="78"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YN1-fK-xDa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nBP-cE-kr7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wtm-9J-eXf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tdw-U0-7WY" kind="relationship" relationship="rootViewController" id="stL-K2-oav"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ylb-eM-gTq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223" y="78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
