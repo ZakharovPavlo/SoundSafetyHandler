@@ -19,7 +19,7 @@ class BlankViewController: AVPlayerViewController {
 
     override func viewDidLoad () {
         super.viewDidLoad ()
-        NotificationCenter.default.removeObserver(self, name: NSNotification.Name ("AVSystemController_SystemVolumeDidChangeNotification"), object: nil)
+
         MPVolumeView.setVolume(threshold)
         let path = Bundle.main.path(forResource: "Placeholder", ofType: "MOV")!
         let url = URL(fileURLWithPath: path)
@@ -38,6 +38,11 @@ class BlankViewController: AVPlayerViewController {
                 }
             }
         }
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name ("AVSystemController_SystemVolumeDidChangeNotification"), object: nil)
+        super.viewDidDisappear(animated)
     }
 }
 
