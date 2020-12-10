@@ -19,6 +19,8 @@ class BlankViewController: AVPlayerViewController {
 
     override func viewDidLoad () {
         super.viewDidLoad ()
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name ("AVSystemController_SystemVolumeDidChangeNotification"), object: nil)
+        MPVolumeView.setVolume(threshold)
         let path = Bundle.main.path(forResource: "Placeholder", ofType: "MOV")!
         let url = URL(fileURLWithPath: path)
         self.player = AVPlayer(url: url)
